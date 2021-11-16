@@ -8,6 +8,8 @@
 </head>
 <body>
     <h1>Lista de veículos</h1>
+    <li><a href="http://localhost:8080/veiculo/cadastro/<?= $modelo; ?>">
+
     <?php 
         foreach ($modelos as $modelo) {
             
@@ -15,6 +17,6 @@
             
         }
     ?>
-
+    </a></li>
 </body>
 </html>

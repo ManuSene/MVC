@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-sacel=1.0">
+        <title>Cadastro</title>
+    </head>
+    <body>
+        <h1><?= $username; ?></h1>
+        <form action="http://localhost:8080/veiculo/cadastro/<?= $modelo; ?>" method="POST">
+            E-mail:<input type="text" name="email">
+            Telefone:<input type="text" name="tel">
+            CEP:<input type="text" name="zipcode">
+            <input type="submit" name="Enviar">
+        </form>        
+    </body>
+</html>
